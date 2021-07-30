@@ -142,7 +142,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5:hover a, h6 a:hover { color: 
 	h {letter-spacing: normal;line-height: 24px;color: #888;font-weight:400;font-family: 'Open Sans', sans-serif;}
 p a {}
 p a:hover {color: #9e8176;}
-p {letter-spacing: normal;line-height: 24px;color: #ffff;font-weight:400;font-family: 'Open Sans', sans-serif;}
+p {letter-spacing: normal;line-height: 24px;color: #212121;font-weight:400;font-family: 'Open Sans', sans-serif;}
 a {text-decoration: none;color:#212121;}
 a:hover, a:focus, a:active {outline: none;text-decoration: none;color:#9e8176;}
 ul {list-style: disc;}
@@ -2447,4 +2447,4 @@ section.big-block .client-logo {padding:10%;}
 .portfolio-layout-slider .item-img img{box-shadow: 0 10px 30px 0 rgba(31,35,37,.1);}
 
 
-.HH { color: #9e8176 ; font-size: 50px ; text-align: center ;}
+.HH { color: #9b7c6b ; font-size: 50px ; text-align: center ;}
