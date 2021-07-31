@@ -2446,10 +2446,7 @@ section.big-block .client-logo {padding:10%;}
 .portfolio-layout-slider .item-img{margin: 0 15px;}
 .portfolio-layout-slider .item-img img{box-shadow: 0 10px 30px 0 rgba(31,35,37,.1);}
 
-.slideshow-container1 {
-  position: relative;
-  background: #f1f1f1f1;
-}
+
 
 /* Slides */
 .mySlides {
