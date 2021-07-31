@@ -2446,7 +2446,7 @@ section.big-block .client-logo {padding:10%;}
 .portfolio-layout-slider .item-img{margin: 0 15px;}
 .portfolio-layout-slider .item-img img{box-shadow: 0 10px 30px 0 rgba(31,35,37,.1);}
 
-.slideshow-container {
+.slideshow-container1 {
   position: relative;
   background: #f1f1f1f1;
 }
@@ -2487,7 +2487,7 @@ section.big-block .client-logo {padding:10%;}
 }
 
 /* The dot/bullet/indicator container */
-.dot-container {
+.dot-container1 {
   text-align: center;
   padding: 20px;
   background: #ddd;
