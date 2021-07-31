@@ -278,18 +278,61 @@ EFT Tapping helps us tune in to the negative patterns that we form around our un
     <div class="container">
       <div class="col-md-5 col-sm-5">
         <div class="section-title mb-50">
-          <h2 class="raleway-font mt-0 font-20px">ABOUT US</h2>
+          <h1 class="raleway-font default-color mt-0 font-50px font-300">ABOUT US</h1>
         </div>
         <h>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper ex ac velit varius semper. Mauris at dolor nec ante ultricies aliquam ac vitae diam. Quisque sodales vehicula elementum. Phasellus tempus tellus vitae ullamcorper hendrerit.</h>
-        <p class="mt-30 mb-0"><a class="btn btn-lg btn-color btn-circle">Read more</a></p>
       </div>
     </div>
   </section>
   
-  
-  
+ 
+   <section class="white-bg lg-section xs-pb-100 xs-pt-100">
+    <div class="col-md-6 col-sm-6 bg-flex bg-flex-left">
+      <div class="bg-flex-holder bg-flex-cover" style="background-image: url(assets/images/bg-left-img.jpg);"></div>
+     
+    </div>
+    <div class="container">
+      <div class="col-md-5 col-sm-5 col-md-offset-7 col-sm-offset-7">
+        <div class="section-title mb-50">
+          <h1 class="raleway-font default-color mt-0 font-50px font-300">Make It Stand Out.</h1>
+        </div>
+        <div >
 
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+  </div>
+
+  <div class="mySlides">
+    <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+  </div>
+
+  <div class="mySlides">
+    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+  </div>
   
+ <div class="mySlides">
+    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+  </div>
+   <div class="mySlides">
+    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+  </div>
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+      </div>
+    </div>
+  </section>
   <!--== Clients End ==-->
 
   <!--== Blog Posts Start ==-->
@@ -599,6 +642,33 @@ EFT Tapping helps us tune in to the negative patterns that we form around our un
 <script src="revolution/js/revolution.extension.slideanims.min.js"></script>
 <script src="revolution/js/revolution.extension.video.min.js"></script>
 <!--== Javascript Plugins End ==-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
 </body>
 </html>
