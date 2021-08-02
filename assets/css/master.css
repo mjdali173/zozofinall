@@ -2517,7 +2517,16 @@ q {font-style: italic;}
 
 
 
-
+.idea {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+color: #312f2f;
+    font-size: 22px;
+    text-align: center  
+	
+ }
 
 
 
